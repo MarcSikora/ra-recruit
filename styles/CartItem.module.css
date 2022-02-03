@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.imgContainer {
+    width: 180px;
+}
+
+.info {
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.amount {
+    color: #4f4f4f;
+    padding: 5px 10px;
+    margin-right: 30px;
+}
+
+.price {
+    color: #009BF2;
+    font-size: 18pt;
+    margin-right: 30px;
+}
+
+.button {
+    background-color: #009BF2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#028ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .buy {
+        flex-direction: column;
+    }
+
+    .price {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+
+    .buy {
+        flex-direction: row;
+        margin-top: 0;
+    }
+}

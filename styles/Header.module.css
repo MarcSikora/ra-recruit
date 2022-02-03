@@ -1,0 +1,38 @@
+.container {
+    background-color: #009BF2;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+.home {
+    margin: 10px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: #009BF2;
+    color: white;
+    cursor: pointer;
+}
+
+.cart {
+    margin: 10px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: white;
+    color: #009BF2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alert {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-right: 5px;
+}

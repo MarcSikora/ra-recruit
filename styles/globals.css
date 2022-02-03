@@ -11,6 +11,17 @@ a {
   text-decoration: none;
 }
 
+button {
+    border: none;
+}
+
+.center {
+  color: #009bf2;
+  text-align: center;
+  padding: 30px;
+}
+
 * {
   box-sizing: border-box;
 }
+

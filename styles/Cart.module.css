@@ -1,0 +1,29 @@
+.container {
+    width: 900px;
+    margin: 100px auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.total {
+    font-size: 14pt;
+    color: #009bf2;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+}
+
