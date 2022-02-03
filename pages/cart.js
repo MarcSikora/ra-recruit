@@ -8,7 +8,7 @@ const Cart = () =>
 {
   const { items } = useContext(AppContext)
   const list = items.map(item => <CartItem key={item.id} item={item} />)
-  const total = items.reduce((a, b) => a + parseFloat(b.price), 0)
+  const total = items.reduce((a, b) => a + parseFloat(b.price) * b.amount, 0)
   const amount = items.reduce((a, b) => a + b.amount, 0)
   
   return <div className={styles.container}>
